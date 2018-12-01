@@ -1,6 +1,0 @@
-framework module Pods_ReSwiftMiddleware {
-  umbrella header "Pods-ReSwiftMiddleware-umbrella.h"
-
-  export *
-  module * { export * }
-}
