@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D8114C2BAF5E9C10A0EAAA4 /* Pods_ReSwiftMiddlewareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACAD68DA1CA3C9DA6C6778D /* Pods_ReSwiftMiddlewareTests.framework */; };
 		132165A621B309EF0021D3B3 /* ReSwiftMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1321659C21B309EF0021D3B3 /* ReSwiftMiddleware.framework */; };
-		132165AB21B309EF0021D3B3 /* ReSwiftMiddlewareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132165AA21B309EF0021D3B3 /* ReSwiftMiddlewareTests.m */; };
 		132165AD21B309EF0021D3B3 /* ReSwiftMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321659F21B309EF0021D3B3 /* ReSwiftMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132165B721B30A2C0021D3B3 /* MiddlewaresCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132165B621B30A2C0021D3B3 /* MiddlewaresCollection.swift */; };
 		132165BB21B30BF00021D3B3 /* MiddlewareExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132165BA21B30BF00021D3B3 /* MiddlewareExecutor.swift */; };
@@ -41,7 +40,6 @@
 		1321659F21B309EF0021D3B3 /* ReSwiftMiddleware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReSwiftMiddleware.h; sourceTree = "<group>"; };
 		132165A021B309EF0021D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		132165A521B309EF0021D3B3 /* ReSwiftMiddlewareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReSwiftMiddlewareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		132165AA21B309EF0021D3B3 /* ReSwiftMiddlewareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReSwiftMiddlewareTests.m; sourceTree = "<group>"; };
 		132165AC21B309EF0021D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		132165B621B30A2C0021D3B3 /* MiddlewaresCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlewaresCollection.swift; sourceTree = "<group>"; };
 		132165BA21B30BF00021D3B3 /* MiddlewareExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddlewareExecutor.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		132165A921B309EF0021D3B3 /* ReSwiftMiddlewareTests */ = {
 			isa = PBXGroup;
 			children = (
-				132165AA21B309EF0021D3B3 /* ReSwiftMiddlewareTests.m */,
 				132165AC21B309EF0021D3B3 /* Info.plist */,
 				132165BC21B30D8A0021D3B3 /* ReSwiftMiddlewareTests-Bridging-Header.h */,
 				132165BD21B30D8A0021D3B3 /* MiddlewareCollectionTests.swift */,
@@ -333,7 +330,6 @@
 				132165C221B313F00021D3B3 /* MiddlewareLogger.swift in Sources */,
 				132165C421B3140E0021D3B3 /* LogConsole.swift in Sources */,
 				132165C021B30E080021D3B3 /* MiddlewareExecutor.swift in Sources */,
-				132165AB21B309EF0021D3B3 /* ReSwiftMiddlewareTests.m in Sources */,
 				132165CC21B314F20021D3B3 /* reducerCounterState.swift in Sources */,
 				132165C621B3142D0021D3B3 /* CounterState.swift in Sources */,
 				132165BE21B30D8A0021D3B3 /* MiddlewareCollectionTests.swift in Sources */,
