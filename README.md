@@ -1,5 +1,5 @@
 # ReSwiftMiddleware
-I have used the [ReSwift] Framework so when I need to implement middlewares a see it a little bit confused to use so I made this tool to help others developers to create MiddleWares.
+I have used the [ReSwift] Framework, so when I needed to implement middlewares, a see it a little bit confused to use, so I made this tool to help others to create MiddleWares.
 
 # About
 This library has two important structs `MiddlewaresCollection` and `MiddlewareExecutor`.
@@ -9,7 +9,7 @@ The `MiddlewareExecutor` is a protocol which you use to implement to execute you
 
 # How to implement
 
-First we need create our Middlewares.
+First we need to create our Middlewares.
 
 **All this code is in the Unit Tests inside the project.**
 
@@ -36,9 +36,9 @@ struct MiddlewareLogger : MiddlewareExecutor{
 }
 ```
 
-If you need to interreput the flow you just return `nil` on execute method.
+If you need to interrupt the flow, you return `nil` on `execute` method.
 
-The example implementing `MiddlewaresCollection`
+The example of implementing `MiddlewaresCollection`.
 
 ```
 let middlewaresCollection = MiddlewaresCollection<CounterState>();
@@ -47,7 +47,7 @@ let middlewareLogger = MiddlewareLogger(logger: logger);
 middlewaresCollection.add(middlewareLogger);
 ```
 
-Now an example how to connect this collection to [ReSwfit]
+Now an example of how to connect this collection to [ReSwfit]
 
 ```
 let store = Store<CounterState>(reducer: reducerCounterState, state: CounterState(), middleware: middlewaresCollection.middlewares)
