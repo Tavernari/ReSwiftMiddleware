@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ReSwiftMiddleware"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ReSwiftMiddleware is a tool to help developers to use Middlewares on ReSwift library"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 I have used the ReSwift Framework, so when I needed to implement middlewares, a see it a little bit confused to use, so I made this tool to help others to create MiddleWares.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ReSwiftMiddleware"
+  s.homepage     = "https://github.com/Tavernari/ReSwiftMiddleware"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
