@@ -11,7 +11,7 @@ import ReSwift
 
 public class MiddlewaresCollection<T:StateType>{
     private var _middlewares:[Middleware<T>];
-    init(){
+    public init(){
         self._middlewares = [];
     }
     
