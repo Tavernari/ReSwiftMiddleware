@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ReSwiftMiddleware"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ReSwiftMiddleware is a tool to help developers to use Middlewares on ReSwift library"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ I have used the ReSwift Framework, so when I needed to implement middlewares, a 
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
