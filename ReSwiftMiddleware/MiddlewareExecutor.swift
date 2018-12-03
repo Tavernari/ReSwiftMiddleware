@@ -9,9 +9,9 @@
 import Foundation
 import ReSwift
 
-public typealias GetStateFunction<State> = ()->State?
+public typealias GetStateFunction = ()->StateType?
 
 public protocol MiddlewareExecutor{
-    func execute<State>(action:Action, getState:@escaping GetStateFunction<State> , dispatch: @escaping DispatchFunction) -> Action?
+    func execute(action:Action, getState:@escaping GetStateFunction , dispatch: @escaping DispatchFunction) -> Action?
 }
 

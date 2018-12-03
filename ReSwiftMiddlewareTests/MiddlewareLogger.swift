@@ -17,7 +17,7 @@ struct MiddlewareLogger : MiddlewareExecutor{
         self.logger = logger;
     }
     
-    func execute<State>(action: Action, getState: @escaping () -> State?, dispatch: @escaping DispatchFunction) -> Action? {
+    func execute(action: Action, getState: @escaping () -> StateType?, dispatch: @escaping DispatchFunction) -> Action? {
         
         if let counterAction = action as? CounterActions{
             self.logger.register(value: counterAction.toString())
