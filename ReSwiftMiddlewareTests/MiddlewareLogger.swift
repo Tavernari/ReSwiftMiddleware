@@ -10,19 +10,19 @@ import Foundation
 import ReSwift
 
 struct MiddlewareLogger : MiddlewareExecutor{
-    
+
     let logger:LogConsole;
     
     init(logger:LogConsole) {
         self.logger = logger;
     }
     
-    func execute(action: Action, state: StateType?) -> Action? {
-        
+    func execute<T>(action: Action, getState: @escaping () -> T?, dispatch: @escaping DispatchFunction) -> Action? where T : StateType {
+ 
         if let counterAction = action as? CounterActions{
             self.logger.register(value: counterAction.toString())
         }
-    
+
         return action
     }
 }
