@@ -10,6 +10,6 @@ import Foundation
 import ReSwift
 
 public protocol MiddlewareExecutor{
-    func execute(action:Action, state:StateType?) -> Action?
+    func execute<T:StateType>(action:Action, getState:@escaping ()->T?, dispatch: @escaping DispatchFunction) -> Action?
 }
 

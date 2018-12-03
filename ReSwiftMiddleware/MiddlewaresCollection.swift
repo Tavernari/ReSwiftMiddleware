@@ -25,7 +25,7 @@ public class MiddlewaresCollection<T:StateType>{
             self._middlewares.append ({ (dispatch, state) -> (@escaping DispatchFunction) -> DispatchFunction in
                 return { next in
                     return { action in
-                        if let nextAction = item.execute(action: action, state: state()){
+                        if let nextAction = item.execute(action: action, getState: state, dispatch: dispatch){
                             next(nextAction);
                         }
                     }
