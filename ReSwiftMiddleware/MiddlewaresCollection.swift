@@ -15,12 +15,12 @@ public class MiddlewaresCollection<T:StateType>{
         self._middlewares = [];
     }
     
-    func concact(withCollection:MiddlewaresCollection)->MiddlewaresCollection{
+    public func concact(withCollection:MiddlewaresCollection)->MiddlewaresCollection{
         self._middlewares = _middlewares + withCollection.middlewares;
         return self;
     }
     
-    func add(_ middlewareItens:MiddlewareExecutor...)->MiddlewaresCollection{
+    public func add(_ middlewareItens:MiddlewareExecutor...)->MiddlewaresCollection{
         for item in middlewareItens {
             self._middlewares.append ({ (dispatch, state) -> (@escaping DispatchFunction) -> DispatchFunction in
                 return { next in
