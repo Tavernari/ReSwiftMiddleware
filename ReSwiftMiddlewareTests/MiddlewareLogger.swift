@@ -10,7 +10,6 @@ import Foundation
 import ReSwift
 
 struct MiddlewareLogger : MiddlewareExecutor{
-    associatedtype T:CounterState
     
     let logger:LogConsole;
     
@@ -18,18 +17,12 @@ struct MiddlewareLogger : MiddlewareExecutor{
         self.logger = logger;
     }
     
-    func execute<T>(action: Action, getState: @escaping () -> T?, dispatch: @escaping DispatchFunction) -> Action? where T : StateType {
-        <#code#>
+    func execute<State>(action: Action, getState: @escaping () -> State?, dispatch: @escaping DispatchFunction) -> Action? {
+        
+        if let counterAction = action as? CounterActions{
+            self.logger.register(value: counterAction.toString())
+        }
+
+        return action
     }
-    
-    
-    
-//    func execute<T>(action: Action, getState: @escaping () -> T?, dispatch: @escaping DispatchFunction) -> Action? where T : StateType {
-//
-//        if let counterAction = action as? CounterActions{
-//            self.logger.register(value: counterAction.toString())
-//        }
-//
-//        return action
-//    }
 }
