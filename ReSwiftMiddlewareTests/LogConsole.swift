@@ -13,5 +13,6 @@ class LogConsole {
     
     func register(value:String){
         self.log += "\n\(value)"
+        NSLog(value)
     }
 }

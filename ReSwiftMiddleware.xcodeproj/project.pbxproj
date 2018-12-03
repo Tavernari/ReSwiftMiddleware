@@ -21,6 +21,7 @@
 		132165C821B314420021D3B3 /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132165C721B314420021D3B3 /* CounterActions.swift */; };
 		132165CA21B314610021D3B3 /* CounterActions+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132165C921B314610021D3B3 /* CounterActions+ToString.swift */; };
 		132165CC21B314F20021D3B3 /* reducerCounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132165CB21B314F20021D3B3 /* reducerCounterState.swift */; };
+		132165CE21B57E9D0021D3B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 132165CD21B57E9D0021D3B3 /* README.md */; };
 		D8ED2CA9CB8BA37BB4D095EA /* Pods_ReSwiftMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08893D18B42B6A560DEB275C /* Pods_ReSwiftMiddleware.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		132165C721B314420021D3B3 /* CounterActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
 		132165C921B314610021D3B3 /* CounterActions+ToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CounterActions+ToString.swift"; sourceTree = "<group>"; };
 		132165CB21B314F20021D3B3 /* reducerCounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reducerCounterState.swift; sourceTree = "<group>"; };
+		132165CD21B57E9D0021D3B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		310ADE7AD0B626C1261D7688 /* Pods-ReSwiftMiddlewareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftMiddlewareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftMiddlewareTests/Pods-ReSwiftMiddlewareTests.release.xcconfig"; sourceTree = "<group>"; };
 		313999D957DA1165CACBE789 /* Pods-ReSwiftMiddleware.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftMiddleware.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftMiddleware/Pods-ReSwiftMiddleware.release.xcconfig"; sourceTree = "<group>"; };
 		33A762B0842C1DC1589241A4 /* Pods-ReSwiftMiddleware.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftMiddleware.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftMiddleware/Pods-ReSwiftMiddleware.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		1321659221B309EF0021D3B3 = {
 			isa = PBXGroup;
 			children = (
+				132165CD21B57E9D0021D3B3 /* README.md */,
 				1321659E21B309EF0021D3B3 /* ReSwiftMiddleware */,
 				132165A921B309EF0021D3B3 /* ReSwiftMiddlewareTests */,
 				1321659D21B309EF0021D3B3 /* Products */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132165CE21B57E9D0021D3B3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
