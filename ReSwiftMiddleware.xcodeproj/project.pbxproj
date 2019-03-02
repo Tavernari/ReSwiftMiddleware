@@ -264,7 +264,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftMiddlewareTests/Pods-ReSwiftMiddlewareTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ReSwiftMiddlewareTests/Pods-ReSwiftMiddlewareTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -273,7 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftMiddlewareTests/Pods-ReSwiftMiddlewareTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReSwiftMiddlewareTests/Pods-ReSwiftMiddlewareTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94112D15D217678D76375B72 /* [CP] Check Pods Manifest.lock */ = {

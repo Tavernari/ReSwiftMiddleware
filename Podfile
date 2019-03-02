@@ -6,12 +6,12 @@ target 'ReSwiftMiddleware' do
   use_frameworks!
 
   # Pods for ReSwiftMiddleware
-    pod 'ReSwift'
+    pod 'ReSwift', :git => 'https://github.com/ReSwift/ReSwift.git', :branch => 'master'
 
   target 'ReSwiftMiddlewareTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'ReSwift'
+    pod 'ReSwift', :git => 'https://github.com/ReSwift/ReSwift.git', :branch => 'master'
   end
 
 end

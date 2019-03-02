@@ -9,7 +9,7 @@
 import Foundation
 import ReSwift
 
-public class MiddlewaresCollection<T:StateType>{
+open class MiddlewaresCollection<T:StateType>{
     private var _middlewares:[Middleware<T>];
     public init(){
         self._middlewares = [];

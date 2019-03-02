@@ -2,15 +2,21 @@ PODS:
   - ReSwift (4.0.1)
 
 DEPENDENCIES:
-  - ReSwift
+  - ReSwift (from `https://github.com/ReSwift/ReSwift.git`, branch `master`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - ReSwift
+EXTERNAL SOURCES:
+  ReSwift:
+    :branch: master
+    :git: https://github.com/ReSwift/ReSwift.git
+
+CHECKOUT OPTIONS:
+  ReSwift:
+    :commit: 5b7a5c6cd05fa2b7d3f68ef7765acb2ba696d83c
+    :git: https://github.com/ReSwift/ReSwift.git
 
 SPEC CHECKSUMS:
   ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
 
-PODFILE CHECKSUM: e526b4e6cf1ce2023d82216f1e6ba417f8c542a4
+PODFILE CHECKSUM: 547f809016261cfa217494e9778b827c4228f633
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0
