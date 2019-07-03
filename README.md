@@ -1,6 +1,9 @@
 # ReSwiftMiddleware
 I have used the [ReSwift] Framework, so when I needed to implement middlewares, a see it a little bit confused to use, so I made this tool to help others to create MiddleWares.
 
+![Swift 5.0](https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat)
+
+
 # About
 This library has two important structs `MiddlewaresCollection` and `MiddlewareExecutor`.
 
