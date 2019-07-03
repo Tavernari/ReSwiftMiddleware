@@ -133,6 +133,6 @@ I have used the ReSwift Framework, so when I needed to implement middlewares, a 
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "ReSwift", "~> 4.0.0"
+  s.dependency "ReSwift", "~> 5.0.0"
 
 end
